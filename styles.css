@@ -1,0 +1,96 @@
+/* Example 13: styles.css */
+
+* {
+  font-family: verdana, sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  height: 100vh;
+  height: auto;
+  /* background-size: cover;
+  background-position: center;
+  background-image: url("background.jpg"); */
+}
+
+img {
+  border: 1px solid black;
+  margin-right: 15px;
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
+  box-shadow: 2px 2px 2px #888;
+}
+
+.username {
+  text-align: center;
+  background: rgb(3, 32, 52);
+  color: rgb(255, 255, 255);
+  font-family: helvetica;
+  font-size: 20pt;
+  padding: 4px;
+}
+
+.info {
+  font-style: italic;
+  margin: 40px 0px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  background: rgb(3, 32, 52);
+}
+
+.subhead {
+  font-weight: bold;
+}
+
+.taken,
+.error {
+  color: red;
+}
+
+.available {
+  color: green;
+}
+
+.whisper {
+  font-style: italic;
+  color: #006600;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 60px;
+  color: #ca6702;
+}
+
+#E_Icon {
+  position: relative;
+  border: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  top: 17px;
+  -moz-box-shadow: 0px 0px 0px;
+  -webkit-box-shadow: 0px 0px 0px;
+  box-shadow: 0px 0px 0px;
+  width: 60px;
+  height: 60px;
+}
+
+#used {
+  margin-top: 50px;
+}
+
+.myTable {
+  height: 350px;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+legend {
+  font-family: helvetica;
+  font-weight: bold;
+  color: #ff0202;
+}
